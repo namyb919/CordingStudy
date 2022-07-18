@@ -1,0 +1,772 @@
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+li, a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#wrap {
+    width: 1583px;
+    height: 2000px;
+    background-color: #ededed;
+}
+
+/* 최상단 배너 */
+.top_banner {
+    width: 1583px;
+    height: 33px;
+    background-color: #d2d2d2;
+
+}
+
+/* 셀렉트 */
+.sel {
+    width: 150px;
+    height: 20px;
+    position: relative; left: 18%;
+    margin: 6px 0 0 0;
+    font-size: 11px;
+    float: left;
+}
+.sel option {
+    background-color: #d2d2d2;
+}
+
+.sel option:nth-child(1) {
+    background-color: red;
+}
+.sel1 option:nth-child(2) {
+    background-color: #f5bf00;
+}
+.sel1 option:nth-child(12) {
+    background-color: #f5bf00;
+}
+.sel1 option:nth-child(23) {
+    background-color: #f5bf00;
+}
+.sel1 option:nth-child(34) {
+    background-color: #f5bf00;
+}
+.sel1 option:nth-child(43) {
+    background-color: #f5bf00;
+}
+.sel1 option:nth-child(48) {
+    background-color: #f5bf00;
+}
+.sel1 option:nth-child(50) {
+    background-color: #f5bf00;
+}
+
+.sel2 option:nth-child(2) {
+    background-color: #f5bf00;
+}
+.sel2 option:nth-child(15) {
+    background-color: #f5bf00;
+}
+.sel2 option:nth-child(25) {
+    background-color: #f5bf00;
+}
+.sel2 option:nth-child(34) {
+    background-color: #f5bf00;
+}
+.sel2 option:nth-child(44) {
+    background-color: #f5bf00;
+}
+
+/* 최상단 배너 버튼 */
+#top_button {
+}
+
+#top_button li {
+    float: left;
+    position: relative; left: 20%;
+}
+
+.topbt1 {
+    width: 35px;
+    height: 33px;
+    background-color: #b6b6b6;
+}
+.topbt2 {
+    width: 52px;
+    height: 33px;
+    background-color: #5a8cb2;
+}
+.topbt3 {
+    width: 80px;
+    height: 33px;
+    background-color: #566793;
+}
+.topbt4 {
+    width: 83px;
+    height: 33px;
+    background-color: #da5b1a;
+}
+.topbt5 {
+    width: 100px;
+    height: 33px;
+    background-color: #0bac90;
+}
+.topbt6 {
+    width: 52px;
+    height: 33px;
+    background-color: #527bb8;
+}
+.topbt7 {
+    width: 55px;
+    height: 33px;
+    background-color: #a9a9a9;
+}
+.topbt8 {
+    width: 52px;
+    height: 33px;
+    background-color: #b9b9b9;
+}
+
+/* header */
+#header {
+    width: 1583px;
+    height: 93px;
+    background-color: #fff;
+    border-bottom: 2px solid #f5bf00;
+}
+/* 로고 */
+.logo {
+    width: 183px;
+    height: 40px;
+    position: relative; left: 285px; top:25px;
+}
+/* gnb */
+#gnb_wrap {
+    width: 800px;
+    position: relative; left: 470px;
+}
+
+.sub {
+    margin-left: 25px;
+    display:inline-block;
+}
+
+.sub a {
+    color:black;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+.sub > a { display:inline-block;  height:52px; }
+
+.sub3 a {
+    color: #a40202;
+}
+
+.sub:hover > a {
+    color:#a40202;
+}
+
+/* gnb sub_inner */
+
+.sub ul {
+    background-color: #fff;
+    width: 1000px;
+    height: 300px;
+    position: absolute; left:-190px; top:53px;
+    border: 1px solid #f5bf00;
+    display: none;
+    z-index: 9999;
+    
+}
+
+.sub ul img {
+    position: absolute; left: 20px; top: 30px;
+}
+
+.si {
+    width: 1000px;
+    height: 34px;
+}
+
+.si1 {
+    margin-top: 10px;
+}
+
+.si dt {
+    float: left;
+    margin-left: 200px;
+    width: 140px;
+    height: 34px;
+}
+
+.si dt a {
+    font-size: 12px;
+}
+.si dd {
+    float: left;
+    width: 656px;
+    height: 34px;
+}
+.si dd a {
+    font-size: 11.2px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.si dl:hover dt {
+    background-color: #f5bf00;
+}
+.si dl:hover dt a {
+    color: #fff;
+}
+
+.si dl:hover dd {
+    background-color: #f5bf00;
+}
+.si dd a:hover {
+    color: #fff;
+}
+/* sub1 */
+.sub1 ul {
+    height: 530px;
+}
+
+/* sub2 */
+.sub2 ul {
+    height: 190px;
+}
+
+/* sub3 */
+.sub3 ul {
+    height: 50px;
+}
+.sub3 ul li {
+    margin:10px 7px 0 10px;
+    display: inline-block;
+}
+.sub3 ul li a {
+    color: black;
+    font-size: 11.2px;
+}
+
+/* sub4 */
+.sub4 ul {
+    height: 50px;
+}
+.sub4 ul li {
+    margin:10px 7px 0 10px;
+    display: inline-block;
+}
+.sub4 ul li a {
+    color: black;
+    font-size: 11.2px;
+}
+
+/* sub5 */
+.sub5 ul {
+    height: 110px;
+}
+
+/* sub6 */
+.sub6 ul {
+    height: 50px;
+}
+.sub6 ul li {
+    margin:10px 7px 0 10px;
+    display: inline-block;
+}
+.sub6 ul li a {
+    color: black;
+    font-size: 11.2px;
+}
+
+/* sub7 */
+.sub7 ul {
+    height: 220px;
+}
+
+/* sub8 */
+.sub8 ul {
+    height: 220px;
+}
+
+/* sub9 */
+.sub9 ul {
+    height: 150px;
+}
+
+/* 섹션 */
+section {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    width: 1583px;
+    height: 680px;
+}
+
+/* 이너섹션 */
+.inner_sec1 {
+    width: 987px;
+    height: 435px;
+    position: absolute; left: 295px; top: 550px;
+}
+    /* 붑스뉴스 */
+    h1 {
+        font-size: 22px;
+        font-weight: 500;
+        margin-bottom: 26px;
+        
+    }
+
+    .bn {
+        width: 444px;
+        height: 407px;
+        background-color: #fff;
+        padding: 26px 0 0 26px;
+        float: left;
+        
+    }
+
+    .bn .plus1 {
+        width: 18px;
+        height: 18px;
+        position: absolute; left: 450px; top:35px;
+    }
+
+    .bn img {
+        width: 200px;
+        height: 140px;
+    }
+
+    .bn div {
+        display: inline-block;
+    }
+
+    .isec11 {
+        width: 200px;
+        height: 320px;
+        margin-right: 20px;
+        float: left;
+    }
+
+    .isec12 {
+        width: 200px;
+        height: 320px;
+        float: left;
+    }
+
+    .txt11 {
+        color: black;
+        margin-top: 14px;
+        font-size: 14px;
+        font-weight: 800;
+        
+    }
+    .txt12 {
+        color: black;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        font-weight: 800;
+        width: 200px;
+        height: 40px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space : nowrap;
+    }
+
+    .txt13 {
+        color: #555555;
+        font-size: 14px;
+        margin-bottom: 20px;
+        width: 200px;
+        height: 71px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .txt14 {
+        color: #555555;
+        font-size: 14px;
+    }
+
+    .txt21 {
+        color: black;
+        margin-top: 14px;
+        font-size: 14px;
+        font-weight: 800;
+        
+    }
+    .txt22 {
+        color: black;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        font-weight: 800;
+        width: 200px;
+        height: 40px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space : nowrap;
+    }
+
+    .txt23 {
+        color: #555555;
+        font-size: 14px;
+        margin-bottom: 20px;
+        width: 200px;
+        height: 71px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        
+    }
+
+    .txt24 {
+        color: #555555;
+        font-size: 14px;
+    }
+    /* 미디어리포트 */
+    h2 {
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .mr {
+        padding: 26px 0 0 26px;
+        background-color: #fff;
+        width: 240px;
+        height: 407px;
+        float: left;
+
+    }
+
+    .mr .plus2 {
+        width: 18px;
+        height: 18px;
+        position: absolute; left: 670px; top:35px;
+    }
+
+    .mr ul {
+        margin-top: 30px;
+        width: 200px;
+        height: 330px;
+    }
+    .mr ul li {
+        width: 200px;
+        border-top: 1px dotted #dddddd;
+        margin-top: 3px;
+    }
+
+    .mr ul li a {
+        color: #505050;
+        font-size: 11.2px;
+    }
+
+/* 붑스 유튜브 */
+.bufsTV_vedio {
+    float: left;
+    width: 250px;
+    height:253px;
+}
+.bufsTV_info {
+    float: left;
+    width: 250px;
+    height:180px;
+
+}
+
+/* 슬라이더 */
+.bxslider-wrapper {
+    position: absolute; left:295px; top: 1000px;
+    width: 985px;
+}
+.box {
+    height: 150px;
+    float: left;
+}
+.box img {
+    margin:30px 0 0 45px;
+}
+.box p {
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+}
+.box a:hover {
+    color: black;
+    text-decoration-line: underline;
+}
+/* 슬라이더 버튼 */
+.bx-prev {
+    position:absolute; top:60px; left:-10px;
+}
+.bx-next{
+    position:absolute; right:-10px; top:60px;
+}
+
+/* 배너 */
+.bannerzone {
+    width: 250px;
+    height: 405px;
+    position: absolute; left: 295px; top: 1180px;
+}
+
+/* 공지사항 */
+.notice {
+    width: 720px;
+    height: 405px;
+    position: absolute; left: 561px; top: 1180px;
+    background-color: #fff;
+}
+
+.tab {
+    height: 15%;
+    display: flex;
+}
+.tabList{
+    flex:1;
+    width: 111px;
+    margin-left: 1px;
+    background-color: #363f58;
+    text-align: center;
+}
+
+.tabList:hover {
+    background-color: #f5bf00;
+}
+
+.tabList:hover a p {
+    color: #000;
+}
+
+.tabList a p {
+    margin:15px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.tabCont {
+    width: 100%;
+    height: 80%;
+    
+}
+
+.tl{
+    display: none;
+}
+.tl li {
+    height: 66px;
+    border-top: 1px dotted #dddddd;
+}
+
+.nd {
+    width: 91px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    margin-left: 35px;
+    border-right: 1px dotted #dddddd;
+}
+.num {
+    color: black;
+    font-size: 20px;
+    margin-top: 8px;
+}
+.date {
+    color: #444444;
+    font-size:12px;
+}
+.subject {
+    width: 550px;
+    color:#444444;
+    font-size: 17px;
+    float: left;
+    margin: 20px 0 0 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space : nowrap;
+}
+
+.tabCont ul li a.active {
+    display:block;
+}
+
+.tab li.active {
+    background-color: #f5bf00;
+}
+
+/* 학교행사 */
+.mid_title {
+    width: 455px;
+    height: 250px;
+    background-color: #4a6094;
+    position: absolute; left: 295px; top: 1600px;
+}
+
+.midtab {
+    height: 55px;
+    display: flex;
+}
+
+.mt{
+    flex:1;
+    width: 111px;
+    margin-left: 1px;
+    background-color: #363f58;
+    text-align: center;
+}
+.mt:hover {
+    background-color: #4a6094;
+}
+
+.mt a p {
+    margin:15px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.mtl { display: none;}
+.mtl p {
+    color:#fff;
+    font-size: 15px;
+}
+
+.midtabCont ul li a.active {
+    display:block;
+}
+
+.midtab li.active {
+    background-color: #4a6094;
+}
+
+/* 캠퍼스 */
+.campus {
+    position: absolute; left: 765px; top: 1600px;
+}
+
+/* sns */
+.sns {
+    position: absolute; left: 1031px; top: 1600px;
+}
+
+/* 사이트맵 */
+.sitemap {
+    width: 1583px;
+    height: 40px;
+    position: absolute; top:1865px;
+
+}
+.sitemap.on {
+    transform: translate(0,-320px);
+    transition-duration: 0.5s;
+}
+
+.openbar {
+    width: 1583px;
+    height: 40px;
+    background-color: #4e4e4e;
+}
+
+/* hiddensite */
+.hidden {
+    width: 1583px;
+    height: 320px;
+    background-color: #4e4e4e;
+    display: none;
+}
+.hidden.on {
+    display: block;
+}
+
+.hidden img {
+    position: absolute; left: 290px;
+}
+
+.hidden ul {
+    float: left;
+    position: relative; left: 525px;
+    margin-left: 80px;
+}
+.hidden a {
+    font-size: 11px;
+    color : #b3b3b3;
+}
+.hidden a:hover {
+    color: white;
+}
+/* hidden-- */
+
+.bartxt {
+    width: 175px;
+    height:36px ;
+    display: inline-block;
+    position: relative; left: 600px; top: 0px;
+    border-right: 1px solid #000;
+}
+
+.bartxt .bartitle {
+    position: relative; left: 6px; top:4px;
+    color: #fecb08;
+    font-size: 11.2px;
+}
+.bartxt img {
+    margin-left: 45px;
+    position: relative; top: 3px;
+}
+
+.bartxt .up_ico2 {
+    margin-left: 35px;
+}
+
+.bartxt .up_ico3 {
+    margin-left: 65px;
+}
+
+.bartxt .up_ico4 {
+    margin-left: 40px;
+}
+
+.bartxt4 {
+    width: 137px;
+}
+
+
+/* 푸터 */
+footer {
+    width: 1583px;
+    height: 125px;
+    background-color: #262626;
+    position: absolute; top:1901px;
+}
+footer ul {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 800px;
+    position: relative; left: 300px;
+}
+footer ul li {
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+footer ul li:nth-child(1) a {
+    color: white;
+}
+footer ul li a {
+    color: #aaaaaa;
+    font-size: 11px;
+}
+footer ul li a:hover {
+    color: white;
+}
+footer address {
+    width: 800px;
+    font-size: 11px;
+    color: #777777;
+    position: relative; left: 300px;
+    font-style: normal;
+}
+.footlogo {
+    position: absolute; right: 305px; bottom: 70px;
+}
